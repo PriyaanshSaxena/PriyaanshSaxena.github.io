@@ -1,0 +1,46 @@
+.education__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.education__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3rem;
+    border-radius: 5rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.education__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.h2_details{
+   margin-bottom: 3rem;
+}
+.h4_details{
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--color-light);
+}
+
+.mgm_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 4rem;
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+    
+}.vbps_image {
+    height: 130px;
+    width: 130px;
+    border-radius: 4rem;
+    overflow: hidden;
+    
+}.vit_image {
+    height: 100px;
+    width: 100px;
+    
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+}

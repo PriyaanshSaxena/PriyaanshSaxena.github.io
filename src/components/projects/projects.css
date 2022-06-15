@@ -29,10 +29,9 @@ h3{
 
 .project__container2 {
     display: grid;
-    grid-template-columns: 1fr 1fr  ;
+    grid-template-columns:  1fr 1fr   ;
     gap: 2rem;
-    margin-left: 21rem;
-    margin-right: 21rem;
+    
 }
 
 .project__container2 > div {
@@ -76,11 +75,11 @@ h3{
 
 
 @media screen and (max-width: 1024px) {
-    .project__container {
+    .project__container1 {
         grid-template-columns: 1fr;
     }
 
-    .project__container > div {
+    .project__container1 > div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
@@ -94,11 +93,43 @@ h3{
 /* ================MEDIA QUERIES (SMALL DEVICES)======================*/
 
 @media screen and (max-width: 600px) {
-    .project__container {
+    .project__container1 {
         gap: 1rem;
     }
 
-    .project__container > div {
+    .project__container1 > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+/*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/
+
+
+@media screen and (max-width: 1024px) {
+    .project__container2 {
+        grid-template-columns: 1fr;
+    }
+
+    .project__container2 > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .project_content {
+        padding: 1rem;
+    }
+}
+
+/* ================MEDIA QUERIES (SMALL DEVICES)======================*/
+
+@media screen and (max-width: 600px) {
+    .project__container2 {
+        gap: 1rem;
+    }
+
+    .project__container2 > div {
         width: 100%;
         padding: 2rem 1rem;
     }

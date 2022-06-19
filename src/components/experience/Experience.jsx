@@ -11,11 +11,11 @@ const Experience = () => {
         <div className='experience_frontend'>
         <a href='https://github.com/PriyaanshSaxena/Malaria-detection-using-Deep-Learning'><FiGithub /></a>
         <h3>SmartInternz Externship -Artificial Intelligence using IBM Cloud </h3>
-        <h5>November 2021- January 2022</h5>
+        <h5>November 2021 - January 2022</h5>
         <div className='experience__content'>
           <p>
-           Guided Project based training in AI where I was taught about various technologies and principles involved in artificial Intelligence
-           Project was "Malaria Detection using Deep Learning". This externship taught me details of Machine and Deep Learning including NLP.
+           Guided Project based training in AI where I was taught about various technologies and principles involved in artificial Intelligence.
+           Project was "Malaria Detection using Deep Learning". This externship explored the details of Machine and Deep Learning including NLP and CNN.
           </p>
         </div>
         </div>

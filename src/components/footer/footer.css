@@ -25,6 +25,11 @@ footer a {
     gap: 2rem;
     margin: 0 auto 3rem auto;
     
+    
+}
+.permalinks ul {
+
+    padding-left: 0;
 }
 
 .footer__socials {

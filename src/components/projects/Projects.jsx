@@ -31,7 +31,8 @@ const Projects = () => {
           <a href='https://github.com/PriyaanshSaxena/Scripto-react-project'><FiGithub /></a>
           <h2>Scripto Website</h2>
           <p>
-            An online website where you can search for various scripts and ideas.
+            An online website where you can search for various scripts and ideas. This project involves front end web using React.js library
+             and an API connected with backend. It would be very useful for the guys that belong from entertainment industry.
           </p>
         </div>
       </div>

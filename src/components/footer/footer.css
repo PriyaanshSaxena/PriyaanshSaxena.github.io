@@ -15,6 +15,7 @@ footer a {
     font-weight: 300;
     margin-bottom: 2rem;
     display: inline-block;
+    text-align: center;
 }
 
 .permalinks {
@@ -22,7 +23,8 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 3rem auto;
+    
 }
 
 .footer__socials {

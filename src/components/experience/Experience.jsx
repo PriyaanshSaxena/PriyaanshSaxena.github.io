@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import { FiGithub } from 'react-icons/fi'
 
 const Experience = () => {
   return (
@@ -8,25 +9,17 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className='container experience__container'>
         <div className='experience_frontend'>
-        <h3>Web Developer Intern @ <a href='https://iRekommend.com'>iRekommend.com </a></h3>
-        <h5>January 2022 - present</h5>
+        <a href='https://github.com/PriyaanshSaxena/Malaria-detection-using-Deep-Learning'><FiGithub /></a>
+        <h3>SmartInternz Externship -Artificial Intelligence using IBM Cloud </h3>
+        <h5>November 2021- January 2022</h5>
         <div className='experience__content'>
           <p>
-          Redesigned the Candidate Portal in React js and integrated multiple API'S with the back-end server.
-          Changed the UI/UX of Candidate Portal with the help of Material UI framework. 
+           Guided Project based training in AI where I was taught about various technologies and principles involved in artificial Intelligence
+           Project was "Malaria Detection using Deep Learning". This externship taught me details of Machine and Deep Learning including NLP.
           </p>
         </div>
         </div>
-        <div className='experience_frontend'>
-        <h3>Computer Vision Intern @ <a href='https://internship.thesparksfoundation.info/'>The Sparks Foundation </a></h3>
-        <h5>October - November 2021</h5>
-        <div className='experience__content'>
-          <p>
-            Worked on task related to Object Detection built with PyTorch 
-            using convolutional neural network having an accuray of 97% on taken Kaggle Dataset.   
-          </p>
-        </div>
-        </div>
+
       </div>
     </section>
   )

@@ -12,6 +12,8 @@ const Header = () => {
         <p>I'm a Final year undergraduate pursuing Bachelor of Technology in Computer Science and Engineering at Vellore Institue of Technology, Bhopal.
         
           As a developer I like to Learn, involve and develop things which heads the way for betterment of the people.</p>
+          
+          <br />
         <CTA/>
         <HeaderSocials/>
 

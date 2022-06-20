@@ -13,7 +13,7 @@ const Header = () => {
         
           As a developer I like to Learn, involve and develop things which heads the way for betterment of the people.</p>
           
-          <br />
+        
         <CTA/>
         <HeaderSocials/>
 
